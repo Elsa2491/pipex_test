@@ -13,7 +13,10 @@ int	main(void)
 	if (id == 0)
 	{
 		int	error;
-		char *arr[] = {"/sbin/ping", "-c", "3", "google.com", NULL};
+// A LA MAISON
+//		char *arr[] = {"/sbin/ping", "-c", "3", "google.com", NULL};
+// A 42
+		char *arr[] = {"/usr/bin/ping", "-c", "3", "google.com", NULL};
 		error = execv(arr[0], arr);
 		if (error == -1)
 		{
