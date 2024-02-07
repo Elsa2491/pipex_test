@@ -6,7 +6,7 @@
 /*   By: eltouma <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/07 15:16:09 by eltouma           #+#    #+#             */
-/*   Updated: 2024/02/07 17:07:40 by eltouma          ###   ########.fr       */
+/*   Updated: 2024/02/07 18:26:53 by eltouma          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,9 +30,11 @@ int	main(void)
 //		char	*arr[] = {"sbin/ping", "-c", "3", "google.com", NULL};		// maison
 		char	*arr[] = {"/usr/bin/ping", "-c", "3", "google.com", NULL};	// 42
 		file = open("redirection_test.txt", O_RDONLY | O_WRONLY | O_CREAT, 0777);
+		printf("je m'affiche dans le terminal\n");
 		if (file == -1)
 			return (-1);
 		file2 = dup2(file, 1);
+		printf("je m'affiche dans le file\n\n");
 		error = execv(arr[0], arr);
 		if (error == -1)
 		{
