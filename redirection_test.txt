@@ -1,10 +1,10 @@
 je m'affiche dans le file
 
-PING google.com (142.250.75.238) 56(84) bytes of data.
-64 bytes from par10s41-in-f14.1e100.net (142.250.75.238): icmp_seq=1 ttl=115 time=1.36 ms
-64 bytes from par10s41-in-f14.1e100.net (142.250.75.238): icmp_seq=2 ttl=115 time=1.60 ms
-64 bytes from par10s41-in-f14.1e100.net (142.250.75.238): icmp_seq=3 ttl=115 time=1.38 ms
+PING google.com (172.217.18.206) 56(84) bytes of data.
+64 bytes from ham02s14-in-f206.1e100.net (172.217.18.206): icmp_seq=1 ttl=115 time=1.27 ms
+64 bytes from ham02s14-in-f206.1e100.net (172.217.18.206): icmp_seq=2 ttl=115 time=1.51 ms
+64 bytes from ham02s14-in-f206.1e100.net (172.217.18.206): icmp_seq=3 ttl=115 time=1.37 ms
 
 --- google.com ping statistics ---
 3 packets transmitted, 3 received, 0% packet loss, time 2004ms
-rtt min/avg/max/mdev = 1.355/1.445/1.601/0.110 ms
+rtt min/avg/max/mdev = 1.265/1.381/1.507/0.099 ms
